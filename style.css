@@ -1,0 +1,24 @@
+body {    
+    background-color: greenyellow;
+}
+
+body *{
+    display: inline-block;
+    position: relative;
+}
+body > script{display:none}
+
+#temp{
+    border: 10px solid;
+    display: none;
+}
+
+.card{
+    width: 10rem;
+    height: 15rem;
+    background-color: pink;
+    background-image: url(/images/Cards.png);
+    background-size: 1300%;
+    background-position: -100rem 30rem;
+
+}
